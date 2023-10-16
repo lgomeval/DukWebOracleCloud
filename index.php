@@ -1,13 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Start your development with LeadMark landing page.">
-    <meta name="author" content="Devcrud">
-    <title>LeadMark Landing page | Free Bootstrap 4.3.x landing page</title>
+    <meta name="description" content="Pagina destinada a mostrar mi portafolio de Aplicaciones.">
+    <meta name="lgomeval" content="portafolio">
+    <title>DukWeb</title>
     <!-- font icons -->
     <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/2505ea36a7.js" crossorigin="anonymous"></script>
+
     <!-- Bootstrap + LeadMark main styles -->
 	<link rel="stylesheet" href="assets/css/leadmark.css">
 </head>
@@ -17,7 +20,7 @@
     <nav class="navbar custom-navbar navbar-expand-md navbar-light fixed-top" data-spy="affix" data-offset-top="10">
         <div class="container">
             <a class="navbar-brand" href="#">
-                <img src="assets/imgs/logo.svg" alt="">
+                <img src="assets/imgs/logo_duk_2.png" alt="dukweblogo">
             </a>
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -25,22 +28,22 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">                     
                     <li class="nav-item">
-                        <a class="nav-link" href="#service">Our Service</a>
+                        <a class="nav-link" href="#service">Servicios</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#about">About Us</a>
+                        <a class="nav-link" href="#about">Quien Soy</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                        <a class="nav-link" href="#portfolio">Portafolio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#blog">Blog</a>
+                        <a class="nav-link" href="#blog">Foro</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
+                        <a class="nav-link" href="#contact">Contacto</a>
                     </li>
                     <li class="nav-item">
-                        <a href="components.html" class="ml-4 nav-link btn btn-primary btn-sm rounded">Components</a>
+                        <a href="login.php" class="ml-4 nav-link btn btn-primary btn-sm rounded">Iniciar Sesion</a>
                     </li>
                 </ul>
             </div>
@@ -51,8 +54,8 @@
     <!-- Page Header -->
     <header class="header">
         <div class="overlay">
-            <h1 class="subtitle">LeadMark Landing Page</h1>
-            <h1 class="title">We Are Creative</h1>  
+            <h1 class="subtitle">Luis Eduardo Gómez Valencia</h1>
+            <h1 class="title">Desarrollador Junior</h1>  
         </div>  
         <div class="shape">
             <svg viewBox="0 0 1500 200">
@@ -66,16 +69,16 @@
     <!-- Service Section -->
     <section  id="service" class="section pt-0">
         <div class="container">
-            <h6 class="section-title text-center">Our Service</h6>
-            <h6 class="section-subtitle text-center mb-5 pb-3">Voluptates architecto provident deserunt.</h6>
+            <h6 class="section-title text-center">Servicios</h6>
+            <h6 class="section-subtitle text-center mb-5 pb-3">Desarrollo de aplicaciones Web y Escritorio.</h6>
 
             <div class="row">
                 <div class="col-md-4">
                     <div class="card mb-4 mb-md-0">
                         <div class="card-body">
                             <small class="text-primary font-weight-bold">01</small>
-                            <h5 class="card-title mt-3"> Beatae quo <h5>
-                            <p class="mb-0">Lorem ipsum dolor sit amet, cquasi cupiditate voluptate debitis saepe dolorem totam dolor repudiandae quo nihil, repellendus nesciunt ab fuga quae, minima reprehenderit sequi fugit.</p>
+                            <h5 class="card-title mt-3"> PHP <h5>
+                            <p class="mb-0">Desarrollo y mantenimiento de aplicaciones contruidas en php, Implementacion de Paginas Web con el Framework Laravel.</p>
                         </div>
                     </div>
                 </div>
@@ -83,8 +86,8 @@
                     <div class="card mb-4 mb-md-0">
                         <div class="card-body">
                             <small class="text-primary font-weight-bold">02</small>
-                            <h5 class="card-title mt-3">Delectus Suscipit<h5>
-                            <p class="mb-0">Lorem ipsum dolor sit amet, cquasi cupiditate voluptate debitis saepe dolorem totam dolor repudiandae quo nihil, repellendus nesciunt ab fuga quae, minima reprehenderit sequi fugit.</p>
+                            <h5 class="card-title mt-3">JAVA<h5>
+                            <p class="mb-0">Aplicaciones de Escritorio desarrollas en JAVA o API REST implementadas con el framework SPRING BOOT.</p>
                         </div>
                     </div>
                 </div>
@@ -92,8 +95,8 @@
                     <div class="card mb-4 mb-md-0">
                         <div class="card-body">
                             <small class="text-primary font-weight-bold">03</small>
-                            <h5 class="card-title mt-3">Itaque harum<h5>
-                            <p class="mb-0">Lorem ipsum dolor sit amet, cquasi cupiditate voluptate debitis saepe dolorem totam dolor repudiandae quo nihil, repellendus nesciunt ab fuga quae, minima reprehenderit sequi fugit.</p>
+                            <h5 class="card-title mt-3">MySQL and MariaDB<h5>
+                            <p class="mb-0">Todas las aplicaciones o paginas web, se integran con cualquier de estos 2 gestores de bases de datos.</p>
                         </div>
                     </div>
                 </div>              
@@ -107,9 +110,9 @@
         <div class="container">
             <div class="row justify-content-between">
                 <div class="col-md-6 pr-md-5 mb-4 mb-md-0">
-                    <h6 class="section-title mb-0">About Company</h6>
-                    <h6 class="section-subtitle mb-4">Architecto provident deserunt</h6>
-                    <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate molestiae temporibus et tenetur unde quasi, cum nemo quo, molestias architecto alias voluptatibus corrupti corporis earum. Necessitatibus maxime modi ipsam, quod!</p>
+                    <h6 class="section-title mb-0">Sobre mi:</h6>
+                    <h6 class="section-subtitle mb-4">Desarrollador Junior</h6>
+                    <p >Desarrollador de aplicaciones Web o de escritorio basadas en PHP o JAVA, sin experiencia significativa en el sector, pero con un entusiasmo inmenso por aprovechar la minima oportunidad que se me presente </p>
                     <img src="assets/imgs/about.jpg" alt="" class="w-100 mt-3 shadow-sm">
                 </div>
                 <div class="col-md-6 pl-md-5">
@@ -121,10 +124,83 @@
                             <img src="assets/imgs/about-2.jpg" alt="" class="w-100 shadow-sm">
                         </div>
                         <div class="col-12 mt-4">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo iusto quidem laborum atque, sapiente ipsa excepturi fuga cum sed in assumenda eos quasi harum culpa laboriosam nulla, incidunt quae. Voluptatum.</p>
-                            <p><b>Aliquid fuga sunt velit, temporibus molestias ab. Ipsa nesciunt totam, aliquid dignissimos.</b><br>
+                            <p>Certificado por el SENA en <b> Desarrollo Web con PHP.</b></p>
+                            <p>Certificado en el Programa:<b> ORACLE - ALURA LATAM.</b><br>
                             </p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt ut a dolorem, consectetur, eos suscipit consequatur magnam est dolore obcaecati adipisci expedita, vero, iste ducimus qui numquam animi facilis officia?</p>
+                            <p>Lo anterior incluye Formaciones como:
+                            <ul>
+                                <li>Java y SPRING BOOT:<span> <a type="submit" href="" data-bs-toggle="modal" data-bs-target="#uno">ver certificado
+                                </a></span></li>
+
+                                <!-- Modal1 -->
+                                <div class="modal fade" id="uno" tabindex="-1" aria-labelledby="unoLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                        <iframe src="./assets/vendors/certificados/Finalizacion del Programa - G5.pdf" width="100%" height="500px" style="border: none;"></iframe>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <li> Integre APP JAVA con BBDD :<span> <a type="submit" href="" data-bs-toggle="modal" data-bs-target="#dos">ver certificado
+                                </a></span></li>
+
+                                <!-- Modal2 -->
+                                <div class="modal fade" id="dos" tabindex="-1" aria-labelledby="dosLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                        <iframe src="./assets/vendors/certificados/Formación Integre aplicaciones Java con Base de datos - Alura.pdf" width="100%" height="500px" style="border: none;"></iframe>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <li>Desarrollo Personal :<span> <a type="submit" href="" data-bs-toggle="modal" data-bs-target="#tres">ver certificado
+                                </a></span></li>
+
+                                <!-- Modal3 -->
+                                <div class="modal fade" id="tres" tabindex="-1" aria-labelledby="tresLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                        <iframe src="./assets/vendors/certificados/Formación - Alura_2.pdf" width="100%" height="500px" style="border: none;"></iframe>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <li> GIT y GITHUB :<span> <a type="submit" href="" data-bs-toggle="modal" data-bs-target="#cuatro">ver certificado
+                                </a></span></li>
+
+                                <!-- Modal4 -->
+                                <div class="modal fade" id="cuatro" tabindex="-1" aria-labelledby="cuatroLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                        <iframe src="./assets/vendors/certificados/Git y GitHub_ controle y comparta su código - Alura.pdf" width="100%" height="500px" style="border: none;"></iframe>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <li>Emprendimiento:<span> <a type="submit" href="" data-bs-toggle="modal" data-bs-target="#exampleModal">ver certificado
+                                </a></span></li>
+
+                                <!-- Modal5 -->
+                                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                        <iframe src="./assets/vendors/certificados/Formación - Alura - Emprendimiento.pdf" width="100%" height="500px" style="border: none;"></iframe>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </ul>
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -464,12 +540,15 @@
 
     <!-- bootstrap 3 affix -->
 	<script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
     <!-- Isotope -->
     <script src="assets/vendors/isotope/isotope.pkgd.js"></script>
 
     <!-- LeadMark js -->
     <script src="assets/js/leadmark.js"></script>
+
+    <script src="assets/js/main.js"></script>
 
 </body>
 </html>
