@@ -26,12 +26,12 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto">                     
+                <ul class="navbar-nav ml-auto text-uppercase">                     
                     <li class="nav-item">
                         <a class="nav-link" href="#service">Servicios</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#about">Quien Soy</a>
+                        <a class="nav-link" href="#about">sobre mi</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#portfolio">Portafolio</a>
@@ -54,7 +54,7 @@
     <!-- Page Header -->
     <header class="header">
         <div class="overlay">
-            <h1 class="subtitle">Luis Eduardo Gómez Valencia</h1>
+            <h1 class="subtitle text-uppercase">Luis Eduardo Gómez Valencia</h1>
             <h1 class="title">Desarrollador Junior</h1>  
         </div>  
         <div class="shape">
@@ -69,8 +69,8 @@
     <!-- Service Section -->
     <section  id="service" class="section pt-0">
         <div class="container">
-            <h6 class="section-title text-center">Servicios</h6>
-            <h6 class="section-subtitle text-center mb-5 pb-3">Desarrollo de aplicaciones Web y Escritorio.</h6>
+            <h6 class="section-title text-center text-uppercase">Servicios</h6>
+            <h6 class="section-subtitle text-center mb-5 pb-3">Desarrollo y mantenimiento de aplicaciones Web y Escritorio.</h6>
 
             <div class="row">
                 <div class="col-md-4">
@@ -110,7 +110,7 @@
         <div class="container">
             <div class="row justify-content-between">
                 <div class="col-md-6 pr-md-5 mb-4 mb-md-0">
-                    <h6 class="section-title mb-0">Sobre mi:</h6>
+                    <h6 class="section-title mb-0 text-uppercase">Sobre mi:</h6>
                     <h6 class="section-subtitle mb-4">Desarrollador Junior</h6>
                     <p >Desarrollador de aplicaciones Web o de escritorio basadas en PHP o JAVA, sin experiencia significativa en el sector, pero con un entusiasmo inmenso por aprovechar la minima oportunidad que se me presente </p>
                     <img src="assets/imgs/about.jpg" alt="" class="w-100 mt-3 shadow-sm">
@@ -199,6 +199,7 @@
                                         </div>
                                     </div>
                                 </div>
+                                <li>Entre Otros ...</li>
                             </ul>
                             </p>
                         </div>
@@ -212,21 +213,13 @@
     <!-- Portfolio Section -->
     <section id="portfolio" class="section portfolio-section">
         <div class="container">
-            <h6 class="section-title text-center">Our Portfolio</h6>
-            <h6 class="section-subtitle mb-5 text-center">New stunning projects for our amazing clients</h6>
+            <h6 class="section-title text-center text-uppercase">Mi Portfolio</h6>
+            <h6 class="section-subtitle mb-5 text-center">Aqui encontraras una relación de los proyectos que he implementado, lo cuales estan en mi repositorio de  <span><a href="https://github.com/lgomeval" target="_blank"> GITHUB  </a></span> para su consideración</h6>
             <div class="filters">
-                <a href="#" data-filter=".new" class="active">
-                    New
-                </a>
-                <a href="#" data-filter=".advertising">
-                    Advertising
-                </a>
-                <a href="#" data-filter=".branding">
-                    Branding
-                </a>
-                <a href="#" data-filter=".web">
-                    Web
-                </a>
+                <a href="#" data-filter=".new" class="active">WebSite EPS</a>
+                <a href="#" data-filter=".advertising">WebSite FORO</a>
+                <a href="#" data-filter=".branding">APP Escritorio Decodificador</a>
+                <a href="#" data-filter=".web">APP Escritorio Agendamiento</a>
             </div>
             <div class="portfolio-container"> 
                 <div class="col-md-6 col-lg-4 web new">
@@ -235,31 +228,43 @@
                         <div class="content-holder">
                             <a class="img-popup" href="assets/imgs/web-1.jpg"></a>
                             <div class="text-holder">
-                                <h6 class="title">WEB</h6>
-                                <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
+                                <h6 class="title">WebSite Desarrollada en PHP con Laravel 9 & Mysql </h6>
+                                <p class="subtitle">Sitio Web que presenta una EPS y ademas tiene la opcion de implementar un modelo ADMIN LTE, en donde se puede agregar todo tipo de CRUD para Empleados, Medicos, Pacientes, Proveedores, etc</p>
                             </div>
                         </div>   
                     </div>             
                 </div>
-                <div class="col-md-6 col-lg-4 web new">
+                <!-- <div class="col-md-6 col-lg-4 web new">
                     <div class="portfolio-item">
                         <img src="assets/imgs/web-2.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
                         <div class="content-holder">
                             <a class="img-popup" href="assets/imgs/web-2.jpg"></a>
                             <div class="text-holder">
-                                <h6 class="title">WEB</h6>
+                                <h6 class="title">Pagina de Inicio</h6>
                                 <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
                             </div>
                         </div> 
                     </div>                         
-                </div>
+                </div> -->
                 <div class="col-md-6 col-lg-4 advertising new">
                     <div class="portfolio-item">
                         <img src="assets/imgs/advertising-2.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                         
                         <div class="content-holder">
                             <a class="img-popup" href="assets/imgs/advertising-2.jpg"></a>
                             <div class="text-holder">
-                                <h6 class="title">ADVERSTISING</h6>
+                                <h6 class="title">Menu del ADMIN LTE</h6>
+                                <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
+                            </div>
+                        </div>    
+                    </div>              
+                </div> 
+                <div class="col-md-6 col-lg-4 advertising new">
+                    <div class="portfolio-item">
+                        <img src="assets/imgs/advertising-2.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                         
+                        <div class="content-holder">
+                            <a class="img-popup" href="assets/imgs/advertising-2.jpg"></a>
+                            <div class="text-holder">
+                                <h6 class="title">Menu del ADMIN LTE 2</h6>
                                 <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
                             </div>
                         </div>    
@@ -271,7 +276,7 @@
                         <div class="content-holder">
                             <a class="img-popup" href="assets/imgs/web-4.jpg"></a>
                             <div class="text-holder">
-                                <h6 class="title">WEB</h6>
+                                <h6 class="title">Vista</h6>
                                 <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
                             </div>
                         </div>
@@ -296,7 +301,7 @@
                        <div class="content-holder">
                             <a class="img-popup" href="assets/imgs/web-3.jpg"></a>
                             <div class="text-holder">
-                                <h6 class="title">WEB</h6>
+                                <h6 class="title">Vista Medicos</h6>
                                 <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
                             </div>
                         </div>
@@ -308,13 +313,13 @@
                        <div class="content-holder">
                             <a class="img-popup" href="assets/imgs/advertising-3.jpg"></a>
                             <div class="text-holder">
-                                <h6 class="title">ADVERSITING</h6>
+                                <h6 class="title">Vista Pacientes</h6>
                                 <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
                             </div>
                         </div>
                     </div>                                                       
                 </div> 
-                <div class="col-md-6 col-lg-4 advertising new"> 
+                <!-- <div class="col-md-6 col-lg-4 advertising new"> 
                     <div class="portfolio-item">
                         <img src="assets/imgs/advertising-4.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">            
                         <div class="content-holder">
@@ -324,10 +329,9 @@
                                 <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
                             </div>
                         </div>
-                    </div>
-                            
-                </div> 
-                <div class="col-md-6 col-lg-4 branding new">
+                    </div>                            
+                </div>  -->
+                <!-- <div class="col-md-6 col-lg-4 branding new">
                     <div class="portfolio-item">
                         <img src="assets/imgs/branding-1.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                        
                         <div class="content-holder">
@@ -338,7 +342,7 @@
                             </div>
                         </div> 
                     </div>
-                </div> 
+                </div>  -->
                 <div class="col-md-6 col-lg-4 branding">
                     <div class="portfolio-item">
                         <img src="assets/imgs/branding-2.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">  
@@ -351,7 +355,7 @@
                         </div>
                     </div>                                                     
                 </div> 
-                <div class="col-md-6 col-lg-4 branding new">
+                <!-- <div class="col-md-6 col-lg-4 branding new">
                     <div class="portfolio-item">
                         <img src="assets/imgs/branding-3.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">   
                         <div class="content-holder">
@@ -362,8 +366,8 @@
                             </div>
                         </div>
                     </div>                                                    
-                </div> 
-                <div class="col-md-6 col-lg-4 branding">
+                </div>  -->
+                <!-- <div class="col-md-6 col-lg-4 branding">
                     <div class="portfolio-item">
                         <img src="assets/imgs/branding-4.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                      
                         <div class="content-holder">
@@ -374,7 +378,7 @@
                             </div>
                         </div>
                     </div>                                                      
-                </div> 
+                </div>  -->
                 <div class="col-md-6 col-lg-4 branding">
                     <div class="portfolio-item">
                         <img src="assets/imgs/branding-5.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">          
@@ -395,8 +399,8 @@
     <!-- Blog Section -->
     <section class="section" id="blog">
         <div class="container">
-            <h6 class="section-title mb-0 text-center">Latest Articles</h6>
-            <h6 class="section-subtitle mb-5 text-center">Architecto provident deserunt eveniet libero</h6>
+            <h6 class="section-title mb-0 text-center">Tópicos Recientes</h6>
+            <h6 class="section-subtitle mb-5 text-center">Registrate y creo o comenta contenido existente.</h6>
 
             <div class="row">
                 <div class="col-md-4">
@@ -437,20 +441,21 @@
     <!-- Testmonial Section -->
     <section class="section" id="testmonial">
         <div class="container">
-            <h6 class="section-title text-center mb-0">Testmonials</h6>
-            <h6 class="section-subtitle mb-5 text-center">What Our Clients Says</h6>
+            <h6 class="section-title text-center mb-0">Proyectos Implementados</h6>
+            <h6 class="section-subtitle mb-5 text-center">Paginas que he creado y que puedes visitar para saber mas...</h6>
             <div class="row">
                 <div class="col-md-4 my-3 my-md-0">
                     <div class="card">
                         <div class="card-body">
                             <div class="media align-items-center mb-3">
-                                <img class="mr-3" src="assets/imgs/avatar.jpg" alt="">
+                                <img class="mr-3" src="assets/imgs/logo_neo.png" alt="">
                                 <div class="media-body">
-                                    <h6 class="mt-1 mb-0">John Doe</h6>
-                                    <small class="text-muted mb-0">Business Analyst</small>     
+                                    <h6 class="mt-1 mb-0">Neo Tecnologia</h6>
+                                    <small class="text-muted mb-0">Empresa Tecnologica</small>     
                                 </div>
                             </div>
-                            <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus enim modi, id dicta reiciendis itaque.</p>
+                            <p class="mb-0">Proyecto implmentado en PHP.</p>
+                            <span><a href="https://neotecnologia.com.co/neo/index.html" target="_blank">Visitar Web</a></span>
                         </div>
                     </div>
                 </div>
@@ -458,17 +463,18 @@
                     <div class="card">
                         <div class="card-body">
                             <div class="media align-items-center mb-3">
-                                <img class="mr-3" src="assets/imgs/avatar-1.jpg" alt="">
+                                <img class="mr-3" src="assets/imgs/logo_duk_2.png" alt="">
                                 <div class="media-body">
-                                    <h6 class="mt-1 mb-0">Maria Garcia</h6>
-                                    <small class="text-muted mb-0">Insurance Agent</small>      
+                                    <h6 class="mt-1 mb-0">Duk Web</h6>
+                                    <small class="text-muted mb-0">Desarrollador Junior</small>      
                                 </div>
                             </div>
-                            <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus enim modi, id dicta reiciendis itaque.</p>
+                            <p class="mb-0">Proyecto desarrollado en PHP & MySQL..</p>
+                            <span><a href="http://www.dukweb.online/" target="_blank">Visitar Web</a></span>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 my-3 my-md-0">
+                <!-- <div class="col-md-4 my-3 my-md-0">
                     <div class="card">
                         <div class="card-body">
                             <div class="media align-items-center mb-3">
@@ -481,7 +487,7 @@
                             <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus enim modi, id dicta reiciendis itaque.</p>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>
@@ -492,35 +498,35 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-5 my-3">
-                    <h6 class="mb-0">Phone</h6>
-                    <p class="mb-4">+ 123-456-7890</p>
+                    <h6 class="mb-0">Numero Celular</h6>
+                    <p class="mb-4">+57 301 371 66 60</p>
 
-                    <h6 class="mb-0">Address</h6>
-                    <p class="mb-4">12345 Fake ST NoWhere AB Country</p>
+                    <h6 class="mb-0">Ubicación</h6>
+                    <p class="mb-4">Santiago de Cali -  Valle del Cauca</p>
 
                     <h6 class="mb-0">Email</h6>
-                    <p class="mb-0">info@website.com</p>
+                    <p class="mb-0">duk000@hotmail.com</p>
                     <p></p>
                 </div>
                 <div class="col-md-7">
                     <form>
-                        <h4 class="mb-4">Drop Us A Line</h4>
+                        <h4 class="mb-4">Escribeme</h4>
                         <div class="form-row">
                             <div class="form-group col-sm-4">
-                                <input type="text" class="form-control text-white rounded-0 bg-transparent" name="name" placeholder="Name">
+                                <input type="text" class="form-control text-white rounded-0 bg-transparent" name="name" placeholder="nombre">
                             </div>
                             <div class="form-group col-sm-4">
                                 <input type="email" class="form-control text-white rounded-0 bg-transparent" name="Email" placeholder="Email">
                             </div>
                             <div class="form-group col-sm-4">
-                                <input type="text" class="form-control text-white rounded-0 bg-transparent" name="subject" placeholder="Subject">
+                                <input type="text" class="form-control text-white rounded-0 bg-transparent" name="subject" placeholder="Asunto">
                             </div>
                             <div class="form-group col-12">
-                                <textarea name="message" id="" cols="30" rows="4" class="form-control text-white rounded-0 bg-transparent" placeholder="Message"></textarea>
+                                <textarea name="message" id="" cols="30" rows="4" class="form-control text-white rounded-0 bg-transparent" placeholder="Mensaje"></textarea>
 
                             </div>
                             <div class="form-group col-12 mb-0">
-                                <button type="submit" class="btn btn-primary rounded w-md mt-3">Send</button>
+                                <button type="submit" class="btn btn-primary rounded w-md mt-3">Enviar</button>
                             </div>                          
                         </div>                          
                     </form>
@@ -528,7 +534,7 @@
             </div>
             <!-- Page Footer -->
             <footer class="mt-5 py-4 border-top border-secondary">
-                <p class="mb-0 small">&copy; <script>document.write(new Date().getFullYear())</script>, LeadMark Created By <a href="https://www.devcrud.com" target="_blank">DevCrud.</a>  All rights reserved </p>     
+                <p class="mb-0 small">&copy; <script>document.write(new Date().getFullYear())</script>, Plantilla LeadMark creada por <a href="https://www.devcrud.com" target="_blank">DevCrud.</a>  All rights reserved </p>     
             </footer>
             <!-- End of Page Footer -->  
         </div>

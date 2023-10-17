@@ -1,6 +1,6 @@
 <?php
     echo "Pagina en Desarrollo <hr>";
 
-    echo "<a href='/dukweboraclecloud'>Volver al Inicio</a>"
+    echo "<a href='/DukWebOracleCloud'>Volver al Inicio</a>"
     
 ?>
